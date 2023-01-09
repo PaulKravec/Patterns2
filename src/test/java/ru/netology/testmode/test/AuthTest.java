@@ -14,6 +14,7 @@ import static ru.netology.testmode.data.DataGenerator.getRandomLogin;
 import static ru.netology.testmode.data.DataGenerator.getRandomPassword;
 
 class AuthTest {
+
     @BeforeEach
     void setup() {
         Configuration.holdBrowserOpen = true;
